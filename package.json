@@ -1,0 +1,37 @@
+{
+  "name": "josi-aware",
+  "description": "This is the overall event management system, where you manage all namespaced events, and handle things like server monitoring, repo sync, and emergency / warning protocols.",
+  "version": "0.0.3",
+  "author": {
+    "name": "Jolly Science"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jollyscience/josi-aware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jollyscience/josi-aware/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  },
+  "readme": "### josi-aware\n\n[coming soon]\n\n\tnpm install josi-aware\n\nThis is the overall event management system, where you manage all namespaced events, and handle things like server monitoring, repo sync, and emergency / warning protocols.\n\n\t- josi-aware/\n\t\t- scripts/\n\t\t\t?- moderator.coffee\n\t\t\t?- facade.coffee",
+  "readmeFilename": "README.md",
+  "_id": "josi-aware@0.0.3",
+  "_from": "josi-aware@0.0.3"
+}
